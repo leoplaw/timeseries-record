@@ -1,6 +1,6 @@
 {
   "name": "timeseries-record",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Interface for time-series record data",
   "main": "dist/timeseries-record.js",
   "types": "dist/timeseries-record.d.ts",
