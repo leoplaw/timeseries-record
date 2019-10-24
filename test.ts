@@ -1,12 +1,12 @@
 import test from 'ava'
-import Record from './src/timeseries-record'
+import TimeseriesRecord from './src/timeseries-record'
 
 test('record is importable', t => {
     t.pass()
 })
 
 test('Record is of expected form', t => {
-    function returnRecord(): Record {
+    function returnRecord(): TimeseriesRecord {
         return {
             Time: 1,
             Open: 2,
@@ -16,6 +16,6 @@ test('Record is of expected form', t => {
             Volume: 6
         }
     }
-    const record: Record = returnRecord()
+    const record: TimeseriesRecord = returnRecord()
     t.pass()
 })

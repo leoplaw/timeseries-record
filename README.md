@@ -15,10 +15,10 @@ Use
 ---
 
 ```typescript
-import Record from 'timeseries-record'
+import TimeseriesRecord from 'timeseries-record'
 ```
 
-The `Record` interface is defined as
+The `TimeseriesRecord` interface is defined as
 
 ```typescript
 /**
@@ -27,7 +27,7 @@ The `Record` interface is defined as
  * For convenience, this is the same definition of Record as
  * implemented in package `talib-binding`.
  */
-interface Record {
+interface TimeseriesRecord {
     /**
      * Time that the current Record began, in units of milliseconds
      * elapsed since January 1, 1970.
@@ -65,4 +65,3 @@ Related
 ## Index
 
 ---
-

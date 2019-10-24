@@ -9,7 +9,7 @@
  * For convenience, this is the same definition of Record as
  * implemented in package `talib-binding`.
  */
-interface Record {
+interface TimeseriesRecord {
     /**
      * Time that the current Record began, in units of milliseconds
      * elapsed since January 1, 1970.
@@ -37,4 +37,4 @@ interface Record {
     Volume: number
 }
 
-export default Record
+export default TimeseriesRecord
